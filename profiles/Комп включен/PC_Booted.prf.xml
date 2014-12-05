@@ -1,0 +1,157 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof206" ve="2">
+		<cdate>1413898296419</cdate>
+		<edate>1417513121004</edate>
+		<id>206</id>
+		<mid0>196</mid0>
+		<nme>PC Booted</nme>
+		<State sr="con0" ve="2">
+			<code>5783</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>PC booted (case ins)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<commvar>&lt;null&gt;</commvar>
+					<commvar-type>java.lang.String</commvar-type>
+					<instant>true</instant>
+					<instant-type>java.lang.Boolean</instant-type>
+					<message>PC booted</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>true</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arpar()
+Single words to the left of =:=
+Single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%arfiles()
+Files
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arsenderbtmac
+Sender Bluetooth Mac Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arsenderid
+Sender Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arsenderlocalip
+Sender Local IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arsendername
+Sender Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%arsenderpublicip
+Sender Public IP
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%arsendertype
+Sender Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%arvia
+Way the message was sent (BT, Wifi, GCM)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid messagevar commvar commparamsvar message target </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>339d1700-1c3a-4d57-a4f0-e2b351bef217</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemote</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">AutoRemote</Str>
+		</State>
+	</Profile>
+	<Task sr="task196">
+		<cdate>1394689879499</cdate>
+		<edate>1416908875807</edate>
+		<id>196</id>
+		<nme>Pc Booted</nme>
+		<Action sr="act0" ve="7">
+			<code>22986</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BackAction>&lt;null&gt;</BackAction>
+					<BackAction-type>java.lang.String</BackAction-type>
+					<BackMultiAction>&lt;null&gt;</BackMultiAction>
+					<BackMultiAction-type>java.lang.String</BackMultiAction-type>
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<DoNotDisturb>true</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<GoBackOnBackAction>false</GoBackOnBackAction>
+					<GoBackOnBackAction-type>java.lang.Boolean</GoBackOnBackAction-type>
+					<GoBackOnBackMultiAction>false</GoBackOnBackMultiAction>
+					<GoBackOnBackMultiAction-type>java.lang.Boolean</GoBackOnBackMultiAction-type>
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>10009</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListHeader>Message</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>0</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MiddleAction>&lt;null&gt;</MiddleAction>
+					<MiddleAction-type>java.lang.String</MiddleAction-type>
+					<MiddleLongAction>&lt;null&gt;</MiddleLongAction>
+					<MiddleLongAction-type>java.lang.String</MiddleLongAction-type>
+					<MiddleMultiAction>&lt;null&gt;</MiddleMultiAction>
+					<MiddleMultiAction-type>java.lang.String</MiddleMultiAction-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<OpenPhoneAppOnSetList>true</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>&lt;null&gt;</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<Text>Рабочий компьютер включен</Text>
+					<Text-type>java.lang.String</Text-type>
+					<TextFont>RESOURCE_ID_GOTHIC_28_BOLD</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<VibrationPattern>0,74,212,73,249,341</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: Message
+Text: Рабочий компьютер включен
+Text Font: Gothic 28 Bold
+Do Not Disturb: true
+Light Mode: Turn On Briefly
+Vibration Pattern: 0,74,212,73,249,341
+Open Phone App: true
+Creation Mode: Create Window</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ Text </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7be355f2-1133-4742-8322-866eb3b062f8</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetTextScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble Text Screen</Str>
+			<Int sr="arg3" val="120"/>
+		</Action>
+	</Task>
+</TaskerData>

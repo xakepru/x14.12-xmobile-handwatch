@@ -1,0 +1,257 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof207" ve="2">
+		<cdate>1413898296431</cdate>
+		<edate>1417513184169</edate>
+		<id>207</id>
+		<limit>true</limit>
+		<mid0>182</mid0>
+		<nme>Pebble Notif Click</nme>
+		<State sr="con0" ve="2">
+			<code>34199</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<BigImageNames>&lt;null&gt;</BigImageNames>
+					<BigImageNames-type>java.lang.String</BigImageNames-type>
+					<BigTextNames>&lt;null&gt;</BigTextNames>
+					<BigTextNames-type>java.lang.String</BigTextNames-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>false</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<Id>&lt;null&gt;</Id>
+					<Id-type>java.lang.String</Id-type>
+					<ImageNames>&lt;null&gt;</ImageNames>
+					<ImageNames-type>java.lang.String</ImageNames-type>
+					<InterceptPersistent>1</InterceptPersistent>
+					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>false</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>false</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<PackageName>(com.google.android.talk|com.google.android.googlequicksearchbox|com.google.android.gm)</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexPackage>true</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>false</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>false</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<Text>&lt;null&gt;</Text>
+					<Text-type>java.lang.String</Text-type>
+					<TextNames>&lt;null&gt;</TextNames>
+					<TextNames-type>java.lang.String</TextNames-type>
+					<Title>&lt;null&gt;</Title>
+					<Title-type>java.lang.String</Title-type>
+					<Type>0</Type>
+					<Type-type>java.lang.String</Type-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Notification Type: Only Created Notifications
+Persistency Type: Non-Perstistent Only
+Package Name: (com.google.android.talk|com.google.android.googlequicksearchbox|com.google.android.gm) (regex)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp
+01. App name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anstatus
+Cancelled Or Created
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%animagesbig()
+21. Images When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%antextsbig()
+19. Texts When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1action
+13. Action Button 1 (Use with AutoNotification Actions)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1icon
+13. Button 1 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton1text
+12. Button 1 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2action
+15. Action Button 2 (Use with AutoNotification Actions)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2icon
+15. Button 2 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton2text
+14. Button 2 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3action
+17. Action Button 3 (Use with AutoNotification Actions)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3icon
+17. Button 3 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton3text
+16. Button 3 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%antouchaction
+22. Action On Touch Id (Use with AutoNotification Actions)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%andismissaction
+23. Action On Dismiss Id (Use with AutoNotification Actions)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%aninfotext
+10. Info Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anstatusbaricon
+Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anid
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%animages()
+20. Images
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%anicon
+04. Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%anbigicon
+04. Icon When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%anpeople
+People
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%anpicture
+05. Picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%anprogress
+Progress
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%anprogressindeterminate
+Progress Indeterminate
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anprogressmax
+Progress Max
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%anpackage
+Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anshowchronometer
+Show Chronometer
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anwhen
+Show When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%anstatusbaricon
+07. Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%ansubtext
+08. SubText
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%ansummarytext
+09. Summary Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%antext
+03. Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%antextlines
+11. Text Lines
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%antitle
+02. Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%antitlebig
+02. Title When Expaded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%antag
+Tag
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%antexts()
+18. Texts
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%anticker
+03. Ticker Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Id App Title Text PackageName Type TextNames BigTextNames ImageNames BigImageNames InterceptPersistent </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>6ae83d6f-9fcb-4ce9-8269-db0e055cd0e2</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentInterceptNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">AutoNotification Intercept</Str>
+		</State>
+	</Profile>
+	<Task sr="task182">
+		<cdate>1387542185072</cdate>
+		<edate>1417513184169</edate>
+		<id>182</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>26736</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<Button1Action>na=:=%anbutton1action</Button1Action>
+					<Button1Action-type>java.lang.String</Button1Action-type>
+					<Button1Label>%anbutton1text</Button1Label>
+					<Button1Label-type>java.lang.String</Button1Label-type>
+					<Button2Action>na=:=%anbutton2action</Button2Action>
+					<Button2Action-type>java.lang.String</Button2Action-type>
+					<Button2Label>%anbutton2text</Button2Label>
+					<Button2Label-type>java.lang.String</Button2Label-type>
+					<Button3Action>na=:=%anbutton3action</Button3Action>
+					<Button3Action-type>java.lang.String</Button3Action-type>
+					<Button3Label>%anbutton3text</Button3Label>
+					<Button3Label-type>java.lang.String</Button3Label-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<ID>%anid%anpackage</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<ListHeader>%antitle</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>&lt;null&gt;</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<NotificationAction>text=:=%antitle=:=%antext</NotificationAction>
+					<NotificationAction-type>java.lang.String</NotificationAction-type>
+					<NotificationLongAction>na=:=%antouchaction</NotificationLongAction>
+					<NotificationLongAction-type>java.lang.String</NotificationLongAction-type>
+					<NotificationText>%antext</NotificationText>
+					<NotificationText-type>java.lang.String</NotificationText-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>dn=:=%anid=:=%anpackage=:=%antag</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>&lt;null&gt;</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %anid%anpackage
+Header: %antitle
+Title: %antitle
+Text: %antext
+Notification Action: text=:=%antitle=:=%antext
+Long Click Action: na=:=%antouchaction
+Button 1 Label: %anbutton1text
+Button 1 Action: na=:=%anbutton1action
+Button 2 Label: %anbutton2text
+Button 2 Action: na=:=%anbutton2action
+Button 3 Label: %anbutton3text
+Button 3 Action: na=:=%anbutton3action
+Motion Action: dn=:=%anid=:=%anpackage=:=%antag</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid TitleFont TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader BatteryChangedPrefix MotionX MotionY MotionZ NotificationText NotificationAction Button1Label Button1Action Button2Label Button2Action Button3Label NotificationLongAction Button3Action </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>17cabd38-996f-42c8-815a-502babc5150e</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSendNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble Notification</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,113 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof199" ve="2">
+		<cdate>1413898296342</cdate>
+		<clp>true</clp>
+		<edate>1416931542036</edate>
+		<id>199</id>
+		<mid0>181</mid0>
+		<nme>dn</nme>
+		<State sr="con0" ve="2">
+			<code>5554</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>dn=:=</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>false</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>false</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>false</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: dn=:=</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%apcomm
+Command at the right of =:=, if there's only 1 =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%apcomm()
+Commands at the right of =:=, if there's more than 1 =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%apmessage
+The whole message that was received
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%appar()
+Paramaters at the left of =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Command </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>603400da-c8ad-4d4e-a414-3787fb6332df</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble</Str>
+		</State>
+	</Profile>
+	<Task sr="task181">
+		<cdate>1389371800014</cdate>
+		<edate>1416931072118</edate>
+		<id>181</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>9389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<OpenPhoneApp>3</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Open Phone App: Go Back</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid LightMode VibrationPattern OpenPhoneApp </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>0a7b74b7-aaa7-48d5-af7c-1ab09e6dac39</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble App</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>25723</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CancelAll>false</CancelAll>
+					<CancelAll-type>java.lang.Boolean</CancelAll-type>
+					<OtherId>%apcomm1</OtherId>
+					<OtherId-type>java.lang.String</OtherId-type>
+					<OtherPackage>%apcomm2</OtherPackage>
+					<OtherPackage-type>java.lang.String</OtherPackage-type>
+					<OtherTag>%apcomm3</OtherTag>
+					<OtherTag-type>java.lang.String</OtherTag-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Other Id: %apcomm1
+Package: %apcomm2
+Tag: %apcomm3</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid notificaitionid OtherId OtherPackage OtherTag </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>&lt;null&gt;</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<plugininstanceid>756fa0d4-5fdc-4266-b889-bd4655b801ad</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">AutoNotification Cancel</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

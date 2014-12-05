@@ -1,0 +1,128 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof74" ve="2">
+		<cdate>1413898106620</cdate>
+		<edate>1417512576970</edate>
+		<flags>8</flags>
+		<id>74</id>
+		<mid0>24</mid0>
+		<nme>Mute</nme>
+		<State sr="con0" ve="2">
+			<code>5554</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>Mute</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>false</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>false</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>false</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: Mute</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%apcomm
+Command at the right of =:=, if there's only 1 =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%apcomm()
+Commands at the right of =:=, if there's more than 1 =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%apmessage
+The whole message that was received
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%appar()
+Paramaters at the left of =:=
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Command </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>9a40d362-350a-4cea-a326-49e6f07de85a</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble</Str>
+		</State>
+	</Profile>
+	<Task sr="task24">
+		<cdate>1390332531719</cdate>
+		<edate>1417512576970</edate>
+		<id>24</id>
+		<nme>Silent Mode</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>9389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>2</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Control App: Close
+Other Pebble App: unknown</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid ID LightMode VibrationPattern OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>36bdbd4e-aa80-4777-9bf1-a74f7a06abc7</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble App</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Звук выключен</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

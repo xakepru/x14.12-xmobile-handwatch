@@ -1,0 +1,135 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof102" ve="2">
+		<cdate>1413898106973</cdate>
+		<edate>1417513592335</edate>
+		<flags>8</flags>
+		<id>102</id>
+		<mid0>40</mid0>
+		<nme>Pebble</nme>
+		<State sr="con0" ve="2">
+			<code>9389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<MediaButtonNextPressed>false</MediaButtonNextPressed>
+					<MediaButtonNextPressed-type>java.lang.Boolean</MediaButtonNextPressed-type>
+					<MediaButtonPressed>false</MediaButtonPressed>
+					<MediaButtonPressed-type>java.lang.Boolean</MediaButtonPressed-type>
+					<MediaButtonPreviousPressed>false</MediaButtonPreviousPressed>
+					<MediaButtonPreviousPressed-type>java.lang.Boolean</MediaButtonPreviousPressed-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleDisconnected>false</PebbleDisconnected>
+					<PebbleDisconnected-type>java.lang.Boolean</PebbleDisconnected-type>
+					<WatchAppOpened>true</WatchAppOpened>
+					<WatchAppOpened-type>java.lang.Boolean</WatchAppOpened-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Watch App Opened: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>aeedfafc-a9e8-4668-a09b-82353e68f780</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble App</Str>
+		</State>
+	</Profile>
+	<Task sr="task40">
+		<cdate>1391148463418</cdate>
+		<edate>1417513592335</edate>
+		<id>40</id>
+		<nme>Main Pebble Screeen</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>11089</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<CommandActions>Tasks,youtube,music,Car,Apps,Games,googlekeep</CommandActions>
+					<CommandActions-type>java.lang.String</CommandActions-type>
+					<CommandLabels>Phone,YouTube,Music,Location,Apps,Games,Keep</CommandLabels>
+					<CommandLabels-type>java.lang.String</CommandLabels-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<FirstLineHeight>&lt;null&gt;</FirstLineHeight>
+					<FirstLineHeight-type>java.lang.String</FirstLineHeight-type>
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LastCellSizeAll>false</LastCellSizeAll>
+					<LastCellSizeAll-type>java.lang.Boolean</LastCellSizeAll-type>
+					<LightMode>10007</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListCommand>&lt;null&gt;</ListCommand>
+					<ListCommand-type>java.lang.String</ListCommand-type>
+					<ListHeader>Home %BATT %</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ListLongCommand>&lt;null&gt;</ListLongCommand>
+					<ListLongCommand-type>java.lang.String</ListLongCommand-type>
+					<LongClickActions>&lt;null&gt;</LongClickActions>
+					<LongClickActions-type>java.lang.String</LongClickActions-type>
+					<ManageHistoryScreen>1</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>false</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<RememberPosition>false</RememberPosition>
+					<RememberPosition-type>java.lang.Boolean</RememberPosition-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<Separator>&lt;null&gt;</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<TapCommand>&lt;null&gt;</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>RESOURCE_ID_GOTHIC_18_BOLD</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>RESOURCE_ID_GOTHIC_24_BOLD</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Header: Home %BATT %
+Labels: Phone,YouTube,Music,Location,Apps,Games,Keep
+Actions: Tasks,youtube,music,Car,Apps,Games,googlekeep
+Title Font: Gothic 24 Bold
+Text Font: Gothic 18 Bold
+Light Mode: Turn On
+Creation Mode: Replace Top Window</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader BatteryChangedPrefix MotionX MotionY MotionZ CommandLabels CommandActions ListCommand FirstLineHeight LongClickActions ListLongCommand Separator </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>3fff75b3-66b4-4aae-9874-566365bdbf63</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetList</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble List</Str>
+			<Int sr="arg3" val="120"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Task>
+</TaskerData>

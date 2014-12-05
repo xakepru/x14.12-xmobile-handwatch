@@ -1,0 +1,152 @@
+<TaskerData sr="" dvi="1" tv="4.5u1m">
+	<Profile sr="prof68" ve="2">
+		<cdate>1413898106557</cdate>
+		<edate>1417512949125</edate>
+		<flags>8</flags>
+		<id>68</id>
+		<mid0>48</mid0>
+		<nme>Ответ Смс</nme>
+		<State sr="con0" ve="2">
+			<code>5554</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>msg</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>false</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>false</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>false</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: msg</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Command </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>cb95cc66-d8f0-4134-b06e-2ec4be36f4a4</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble</Str>
+		</State>
+	</Profile>
+	<Task sr="task48">
+		<cdate>1392787648092</cdate>
+		<edate>1417512949125</edate>
+		<id>48</id>
+		<nme>Шаблон</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="7">
+			<code>24957</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BackAction>&lt;null&gt;</BackAction>
+					<BackAction-type>java.lang.String</BackAction-type>
+					<BackMultiAction>&lt;null&gt;</BackMultiAction>
+					<BackMultiAction-type>java.lang.String</BackMultiAction-type>
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<BottomAction>later cl</BottomAction>
+					<BottomAction-type>java.lang.String</BottomAction-type>
+					<BottomLabel>Перезвоню</BottomLabel>
+					<BottomLabel-type>java.lang.String</BottomLabel-type>
+					<BottomLongAction>&lt;null&gt;</BottomLongAction>
+					<BottomLongAction-type>java.lang.String</BottomLongAction-type>
+					<BottomMultiAction>&lt;null&gt;</BottomMultiAction>
+					<BottomMultiAction-type>java.lang.String</BottomMultiAction-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<GoBackOnBackAction>false</GoBackOnBackAction>
+					<GoBackOnBackAction-type>java.lang.Boolean</GoBackOnBackAction-type>
+					<GoBackOnBackMultiAction>false</GoBackOnBackMultiAction>
+					<GoBackOnBackMultiAction-type>java.lang.Boolean</GoBackOnBackMultiAction-type>
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<ListHeader>Ответ</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>1</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MiddleAction>drive cl</MiddleAction>
+					<MiddleAction-type>java.lang.String</MiddleAction-type>
+					<MiddleLabel>За рулем</MiddleLabel>
+					<MiddleLabel-type>java.lang.String</MiddleLabel-type>
+					<MiddleLongAction>switch2</MiddleLongAction>
+					<MiddleLongAction-type>java.lang.String</MiddleLongAction-type>
+					<MiddleMultiAction>keyboard</MiddleMultiAction>
+					<MiddleMultiAction-type>java.lang.String</MiddleMultiAction-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>false</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<QuickCommandPrefix>&lt;null&gt;</QuickCommandPrefix>
+					<QuickCommandPrefix-type>java.lang.String</QuickCommandPrefix-type>
+					<QuickLongCommandPrefix>&lt;null&gt;</QuickLongCommandPrefix>
+					<QuickLongCommandPrefix-type>java.lang.String</QuickLongCommandPrefix-type>
+					<QuickMultiCommandPrefix>&lt;null&gt;</QuickMultiCommandPrefix>
+					<QuickMultiCommandPrefix-type>java.lang.String</QuickMultiCommandPrefix-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>switch2</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>RESOURCE_ID_GOTHIC_28_BOLD</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>RESOURCE_ID_GOTHIC_18_BOLD</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<TopAction>busy cl</TopAction>
+					<TopAction-type>java.lang.String</TopAction-type>
+					<TopLabel>Занят</TopLabel>
+					<TopLabel-type>java.lang.String</TopLabel-type>
+					<TopLongAction>&lt;null&gt;</TopLongAction>
+					<TopLongAction-type>java.lang.String</TopLongAction-type>
+					<TopMultiAction>&lt;null&gt;</TopMultiAction>
+					<TopMultiAction-type>java.lang.String</TopMultiAction-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: Ответ
+Top Label: Занят
+Top Action: busy cl
+Middle Label: За рулем
+Middle Action: drive cl
+Middle Long Click Action: switch2
+Middle Multi Click Action: keyboard
+Bottom Label: Перезвоню
+Bottom Action: later cl
+Title Font: Gothic 18 Bold
+Text Font: Gothic 28 Bold
+Motion Action: switch2
+Creation Mode: Replace Top Window</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid TitleFont TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ TopLabel TopAction TopLongAction TopMultiAction MiddleLabel BottomLabel BottomAction BottomLongAction BottomMultiAction QuickCommandPrefix QuickLongCommandPrefix QuickMultiCommandPrefix </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>593d1747-4afd-4dd8-bcde-a34741f9e745</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetQuickScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">AutoPebble Quick Screen</Str>
+			<Int sr="arg3" val="120"/>
+		</Action>
+	</Task>
+</TaskerData>
